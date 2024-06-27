@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "//": "List of dependencies required for the project.",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -16,21 +15,18 @@
     "react-icons": "^5.2.1"
   },
   "scripts": {
-    "//": "Define scripts for starting, building, testing, and ejecting the project.",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "//": "Extend default ESLint configuration for React applications.",
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
   "browserslist": {
-    "//": "Define browser compatibility settings for production and development.",
     "production": [
       ">0.2%",
       "not dead",
