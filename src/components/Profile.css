@@ -1,0 +1,51 @@
+/* Profile.css */
+
+#i1 {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    left: 2px;
+    top: 0%;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+#u1 {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left: 15px;
+    bottom: 2%;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    #i1 {
+        width: 120px; /* Adjust size for smaller screens */
+        height: 60px;
+        left: 1px;
+    }
+
+    #u1 {
+        width: 40px; /* Adjust size for smaller screens */
+        height: 30px;
+        left: 10px;
+        bottom: 1%;
+    }
+}
+
+@media (max-width: 480px) {
+    #i1 {
+        display: none; /* Hide the icon image on mobile screens */
+    }
+
+    #u1 {
+        width: 30px; /* Further adjust size for mobile screens */
+        height: 25px;
+        left: 5px;
+        bottom: 1%;
+    }
+}
